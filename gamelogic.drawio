@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T20:48:07.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.6" etag="NLiCiN73aaAkk8ZQn_Xm" type="github"><diagram id="OgG-yL_49k_Exgt00KtL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-10T21:17:50.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ibLLd4jemsK3UQFJ5qh6" version="14.4.6" type="github">
+  <diagram id="OgG-yL_49k_Exgt00KtL" name="Page-1">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rwFxsDgBFhcY9L2vMcPv-1" target="rwFxsDgBFhcY9L2vMcPv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-1" value="SHUFFLE/ DEAL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="420" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rwFxsDgBFhcY9L2vMcPv-1" target="rwFxsDgBFhcY9L2vMcPv-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="160" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-4" value="FIRST PLAYER TO 0 CARDS&lt;br&gt;WINS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-6" value="LAST REMAINING PLAYER WITH CARDS LOSES" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="405" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rwFxsDgBFhcY9L2vMcPv-4" target="rwFxsDgBFhcY9L2vMcPv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="580" as="sourcePoint" />
+            <mxPoint x="530" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-8" value="SPLIT CARDS BY NUMBER OF PLAYERS&lt;br&gt;(MIN 3 PLAYERS)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="7.5" y="500" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rwFxsDgBFhcY9L2vMcPv-10" target="rwFxsDgBFhcY9L2vMcPv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-10" value="GAME STARTS WITH WHO HAS 3 OF CLUBS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rwFxsDgBFhcY9L2vMcPv-11" target="rwFxsDgBFhcY9L2vMcPv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rwFxsDgBFhcY9L2vMcPv-11" target="rwFxsDgBFhcY9L2vMcPv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-11" value="GAME PLAY" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="405" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-15" value="EACH PLAYER PICKS A HIGHER RANKING CARD" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="600" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rwFxsDgBFhcY9L2vMcPv-18" value="&lt;font style=&quot;font-size: 18px&quot;&gt;BASIC LOGIC&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
